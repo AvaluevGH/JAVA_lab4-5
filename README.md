@@ -1,0 +1,3 @@
+# JAVA_lab4-5
+Display graphics.
+Сompiled the simplest window application displaying graphics (primitives of geometric shapes, text). As we already know, in Java window applications, the paintComponent () method is responsible for displaying any component, which takes an object of the Graphics class as an argument. This object represents some kind of virtual canvas on which drawing takes place, stores a set of parameters for displaying images and text, and also provides a number of methods for this. Each time the window is redrawn (for whatever reason), the redraw event handler notifies the component. This results in a call to the paintComponent () method of all the components in the interface.
