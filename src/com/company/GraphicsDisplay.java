@@ -141,7 +141,7 @@ public class GraphicsDisplay extends JPanel {
 
     protected void paintGraphics (Graphics2D canvas) {
         canvas.setStroke(this.markerStroke);
-        canvas.setColor(Color.black);
+        canvas.setColor(Color.RED);
         // Линии
         Double currentX = null;
         Double currentY = null;
